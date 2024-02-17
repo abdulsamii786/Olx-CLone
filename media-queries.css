@@ -1,0 +1,15 @@
+@media screen and (max-width:992px){
+    .product-card{
+        width: 16.66666%;
+    }
+}
+@media screen and (max-width:768px){
+    .product-card{
+        width: 25%;
+    }
+}
+@media screen and (max-width:576px){
+    .product-card{
+        width: 50%;
+    }
+}

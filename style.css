@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: Roboto-Regular;
+  position: relative;
+}
+:root {
+  --black-color: #222;
+  --primary-color: #002f34;
+  --footer-text: rgba(0, 47, 52, 0.64);
+  --secondary-color: #3a77ff;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  margin: unset !important;
+  padding: unset !important;
+}
+li {
+  list-style: none;
+}
+.padding {
+  padding: 10px;
+}
+.categories .heading {
+  color: var(--primary-color);
+  margin: 15px 0px;
+}
+.selling-card-wrapper .heading {
+  font-weight: 600;
+  margin-top: 15px;
+}
+.products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  text-align: center;
+  width: 11.11%;
+  padding: 20px;
+}
+.product-card a {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--black-color);
+}
+.product-card img {
+  margin-bottom: 5px;
+  width: 100%;
+}
+.selling-card .heading a {
+  font-family: Roboto-Bold;
+  color: var(--secondary-color);
+}
+.selling-card{
+  margin-top: 20px !important;
+}
+.rupees i {
+  font-size: 25px;
+}
+.selling-card-wrapper {
+  margin-bottom: 30px;
+}
+.selling-card-wrapper .selling-card .card {
+  padding: 15px;
+  line-height: 30px;
+  border-radius: unset !important;
+}
+.o-head1 a {
+  font-size: 13px;
+  margin-right: 50px;
+}
+.o-head1 i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.o-head3 a {
+  color: var(--primary-color);
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.o-head3-wrapper {
+  padding: 5px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+}
+.btn-wrapper {
+  font-weight: bold !important;
+}
+.ad {
+  margin-bottom: 30px;
+}
+.footer-wrapper {
+  border: 1px solid rgba(0, 47, 52, 0.2);
+  padding: 1.6rem 0 6.4rem;
+}
+.footer h6 {
+  font-weight: 700;
+  margin-top: 10px;
+  color: var(--primary-color);
+}
+.footer a {
+  color: var(--footer-text);
+}
+.top-btn {
+  position: fixed;
+  bottom: 10px;
+  left: 700px;
+}
+.top-btn a {
+  border-radius: 80px !important;
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid #002f34;
+}
+.top-btn i {
+  margin-right: 10px;
+}
+.top-btn a:hover {
+  background-color: #fff;
+  color: #002f34;
+  border: 3px solid #002f34;
+}
